@@ -29,7 +29,7 @@ for version in "${versions[@]}"; do
 
     # prepare Dockerfile
 	{ cat Dockerfile.template; } > "$version/Dockerfile"
-	{ cat README.template; } > "$version/README.md"
+	{ cat README.md; } > "$version/README.md"
 
     jdkImage="${jdkImages[$version]:-$defaultjdkImage}"
     url="${releases[$version]}"
