@@ -1,17 +1,19 @@
 #!/bin/bash
 set -e
 
-defaultjdkImage='openjdk:8-alpine'
+defaultjdkImage='openjdk:11-alpine'
 declare -A jdkImages=(
 	[0.8.0]='openjdk:8-alpine'
 	[0.8.1]='openjdk:8-alpine'
 	[0.8.2]='openjdk:8-alpine'
+	[1.1.2]='eclipse-temurin:11-alpine'
 )
 
 declare -A releases=(
 	[0.8.0]='https://repo1.maven.org/maven2/org/seaborne/rdf-delta/rdf-delta-dist/0.8.0/rdf-delta-dist-0.8.0.zip'
 	[0.8.1]='https://repo1.maven.org/maven2/org/seaborne/rdf-delta/rdf-delta-dist/0.8.1/rdf-delta-dist-0.8.1.zip'
 	[0.8.2]='https://repo1.maven.org/maven2/org/seaborne/rdf-delta/rdf-delta-dist/0.8.2/rdf-delta-dist-0.8.2.zip'
+	[1.1.2]='https://repo1.maven.org/maven2/org/seaborne/rdf-delta/rdf-delta-dist/1.1.2/rdf-delta-dist-1.1.2.zip'
 )
 
 versions=( "$@" )
