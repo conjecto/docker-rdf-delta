@@ -1,7 +1,8 @@
 
 # Supported tags and respective `Dockerfile` links
 
--	[`0.8.2`, `0.8`, `latest` (*0.8.2/Dockerfile*)](https://github.com/conjecto/docker-rdf-delta/blob/master/0.8.2/Dockerfile)
+-	[`1.1.2`, `1.1`, `latest` (*1.1.2/Dockerfile*)](https://github.com/conjecto/docker-rdf-delta/blob/master/1.1.2/Dockerfile)
+-	[`0.8.2`, `0.8` (*0.8.2/Dockerfile*)](https://github.com/conjecto/docker-rdf-delta/blob/master/0.8.2/Dockerfile)
 -	[`0.8.1` (*0.8.1/Dockerfile*)](https://github.com/conjecto/docker-rdf-delta/blob/master/0.8.1/Dockerfile)
 -	[`0.8.0` (*0.8.0/Dockerfile*)](https://github.com/conjecto/docker-rdf-delta/blob/master/0.8.0/Dockerfile)
 
